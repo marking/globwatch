@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>GlobWatch is a .NET Core file system watcher that runs commands on changes.</Description>
+    <Copyright>Copyright © 2016 Marcus Schweda</Copyright>
+    <AssemblyTitle>GlobWatch</AssemblyTitle>
+    <VersionPrefix>1.0.1</VersionPrefix>
+    <Authors>Marcus Schweda</Authors>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AssemblyName>dotnet-globwatch</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>GlobWatch</PackageId>
+    <PackageProjectUrl>https://github.com/mdschweda/globwatch</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/mdschweda/globwatch/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/mdschweda/globwatch</RepositoryUrl>
+    <RuntimeFrameworkVersion>1.0.4</RuntimeFrameworkVersion>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.CommandLineUtils" Version="1.1.0" />
+    <PackageReference Include="Minimatch" Version="2.0.0" />
+    <PackageReference Include="System.IO.FileSystem.Watcher" Version="4.3.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.0.1" />
+    <PackageReference Include="Microsoft.DotNet.Cli.Utils" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
